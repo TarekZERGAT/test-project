@@ -8,13 +8,19 @@
         <version>2.7.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.ztardz</groupId>
+
+    <groupId>com.ztardz.test-project-api</groupId>
     <artifactId>test-project-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>test-project-api</name>
     <description>test-project-api</description>
+
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>11</java.version>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
     </properties>
     <dependencies>
         <dependency>
